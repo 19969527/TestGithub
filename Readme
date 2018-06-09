@@ -1,0 +1,10 @@
+1.carve the appropriate spline from the BMG by ovito (Affine transformation to (0, 0), slice (1 0 0, 720), slice (0 1 0, 180) and output data.spline1)
+2.use the code to make NG within the carved spline
+3.modified the input.txt
+5.compile the gfortran code (the code should include ggP12.f90, datatypes.mod and variables.mod): gfortran ggP12.f90 -o columnar
+6.run the code: ./columnar
+7.keep the atom type (nc.xyz) and the grain ID (output.plt) for each atom
+8.repeat the steps 1-6 and obtain another spline
+9.merge all the splines and then get the NG
+
+
